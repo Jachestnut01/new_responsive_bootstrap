@@ -1,0 +1,81 @@
+.navbar {
+    background-color: black;
+    padding-left: 10px; 
+    padding-right: 10px;
+  }
+  
+  .navbar .navbar-brand img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffcc00 !important;
+    text-decoration: underline;
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #ffcc00 !important;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler {
+    border-color: #ffcc00;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffcc00;
+  }
+  
+  
+  .navbar-nav {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .navbar-nav .nav-item {
+    display: inline-block;
+  }
+
+  body {
+    background-image: url(images/comic.background);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    margin: 0;
+  }
+  
+  @media (max-width: 575px) {
+    .navbar-nav .nav-link {
+      font-size: 12px; 
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  
+    .navbar-toggler-icon {
+      background-color: #ffcc00;
+    }
+  
+    .navbar-toggler {
+      border: none;
+    }
+  }
